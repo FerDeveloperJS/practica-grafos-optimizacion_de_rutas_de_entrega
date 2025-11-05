@@ -97,3 +97,7 @@ Donde:
 - El precio del galón y el rendimiento del vehículo son constantes.
 
 - No existen restricciones de capacidad, tiempo ni condiciones de tráfico.
+
+## Como ejecutar el proyecto
+
+Ir al archivo main.js y en la terminal escribir el siguiente comando: node main.js
