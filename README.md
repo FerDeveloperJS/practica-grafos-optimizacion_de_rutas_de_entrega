@@ -55,7 +55,7 @@ Modelaremos el problema con 6 nodos en total para satisfacer la condición de te
 
 Usaremos las siguientes notaciones:
 
-- Sede Cero: Será el punto de inicio y fin del recorrido, es decir el Almacen central donde se carga la materia prima.
+- Sede Cero: Será el punto de inicio, es decir el Almacen central donde se carga la materia prima.
 
 - Puntos de entrega (Sede Uno, Sede Dos, Sede Tres, Sede Cuatro, Sede Cinco): Serán las 5 sedes que deben ser visitadas para dejar la materia prima.
 

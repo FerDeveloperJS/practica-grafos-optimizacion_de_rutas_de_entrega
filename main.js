@@ -1,6 +1,8 @@
+// ARBOL EXPANSION MINIMA
+
 import Grafo from "./Grafo.js";
-import calcularPeso from "./calcularPeso.js";
-import prim from "./prim.js";
+import calcularPeso from "./arbolExpansionMinima/calcularPeso.js";
+import prim from "./arbolExpansionMinima/prim.js";
 
 let miGrafo = new Grafo();
 
@@ -21,3 +23,16 @@ miGrafo.agregarRuta("S3", "S5", calcularPeso(5)); // 25.000
 
 let arbolExpansionMinima = prim(miGrafo, "S0");
 console.log(arbolExpansionMinima);
+
+// BACKTRACKING
+
+import mejorRuta from "./backtracking/mejorRuta.js";
+import construirArbolDesdeArbolExpansionMinima from "./backtracking/construirArbolDesdeArbolExpansionMinima.js";
+
+let arbolConstruido = construirArbolDesdeArbolExpansionMinima(
+  arbolExpansionMinima.arbolExpansionMinima
+);
+
+let ruta = mejorRuta(arbolConstruido, "S0");
+
+console.log(ruta);
